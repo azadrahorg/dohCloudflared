@@ -1,4 +1,5 @@
 # DOH Cloudflared Installer For Ubuntu 22.04 Server
+![](https://img.shields.io/github/issues/azadrahorg/dohCloudflared)
 
 ### Install
 ```bash
