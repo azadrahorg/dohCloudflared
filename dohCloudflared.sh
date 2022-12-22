@@ -32,7 +32,7 @@ apt-get -o Acquire::ForceIPv4=true install -y software-properties-common
 add-apt-repository --yes universe
 add-apt-repository --yes restricted
 add-apt-repository --yes multiverse
-apt-get -o Acquire::ForceIPv4=true install -y moreutils dnsutils tmux screen nano wget curl
+apt-get -o Acquire::ForceIPv4=true install -y moreutils dnsutils tmux screen nano wget curl socat
 
 echo
 echo "=== Configure Cloudflared ==="
