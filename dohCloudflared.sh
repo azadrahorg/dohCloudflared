@@ -3,7 +3,7 @@
 
 echo
 echo "=== azadrah.org ==="
-echo "=== https://github.com/azadrah-org ==="
+echo "=== https://github.com/azadrahorg ==="
 echo "=== DOH Installer (Cloudflared For Ubuntu 22.04 Server) ==="
 echo
 sleep 3
@@ -62,7 +62,7 @@ systemctl daemon-reload
 systemctl enable --now cloudflared-proxy-dns
 rm -f /etc/resolv.conf
 grep -Fq 'azadrah-org' /etc/resolv.conf || echo '
-# https://github.com/azadrah-org
+# https://github.com/azadrahorg
 nameserver 127.0.0.1
 nameserver 2606:4700:4700::1111
 ' >> /etc/resolv.conf
