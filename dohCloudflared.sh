@@ -61,8 +61,11 @@ EOF
 systemctl daemon-reload
 systemctl enable --now cloudflared-proxy-dns
 rm -f /etc/resolv.conf
-echo nameserver 127.0.0.1 | sudo tee /etc/resolv.conf >/dev/null
-echo nameserver 2606:4700:4700::1111 | sudo tee /etc/resolv.conf >/dev/null
+grep -Fq 'azadrah-org' /etc/resolv.conf || echo '
+# https://github.com/azadrah-org
+nameserver 127.0.0.1
+nameserver 2606:4700:4700::1111
+' >> /etc/resolv.conf
 
 echo
 echo "=== Finished ==="
