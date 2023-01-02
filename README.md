@@ -1,6 +1,6 @@
-# DOH Cloudflared Installer For Ubuntu 22.04 Server
+# DOH Cloudflared Installer For Debian Ubuntu and CentOS
 
-Cloudflare DOH server installation for Ubuntu 22.04
+Cloudflare DOH Installer For Debian Ubuntu and CentOS
 
 ### Install
 ```bash
