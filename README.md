@@ -1,6 +1,15 @@
 # DOH Cloudflared Installer For Debian Ubuntu and CentOS
 
 Cloudflare DOH Installer For Debian Ubuntu and CentOS
+OS Supported:
+```
+Ubuntu 20.04
+Ubuntu 22.04
+Debian 10
+Debian 11
+CentOS Stream
+```
+
 
 ### Install
 ```bash
