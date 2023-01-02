@@ -31,7 +31,7 @@ systemctl disable cloudflared
 ### How to test DNS:
 Run This Comamnd
 ```
-kdig google.com | grep 127.0.0.1
+dig google.com | grep 127.0.0.1
 ```
 The output should be like below
 ```
