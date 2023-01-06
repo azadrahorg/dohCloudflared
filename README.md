@@ -1,4 +1,4 @@
-# DOH Cloudflared Installer For Debian Ubuntu and CentOS
+# DOH (DNS-over-HTTPS) Cloudflared Tunnel Installer For Debian Ubuntu and CentOS
 
 Cloudflare DOH Installer For Debian Ubuntu and CentOS
 
